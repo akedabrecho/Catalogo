@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brechó Akedá</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f9f6f0;
+      color: #2c2c2c;
+    }
+    header {
+      background-color: #e8e1d4;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Georgia', serif;
+      font-size: 2rem;
+      margin: 0;
+    }
+    .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .item {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+    .item:hover {
+      transform: translateY(-5px);
+    }
+    .item img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .info {
+      padding: 1rem;
+    }
+    .info h2 {
+      font-size: 1.1rem;
+      margin: 0 0 0.5rem;
+    }
+    .info p {
+      margin: 0.3rem 0;
+    }
+    footer {
+      background: #e8e1d4;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Brechó Akedá</h1>
+    <p>Peças únicas • Sustentáveis • Atemporais</p>
+  </header>
+
+  <section class="catalogo">
+    <div class="item">
+      <img src="https://i.postimg.cc/FzcJhBhQ/vestido.webp/400x300" alt="Peça 1" />
+      <div class="info">
+        <h2>Vestido Vintage</h2>
+        <p>R$ 89,00</p>
+        <p>Peça única ✨</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://i.postimg.cc/C1xNLY2p/camisa.jpg/400x300" alt="Peça 2" />
+      <div class="info">
+        <h2>Camisa Oversized</h2>
+        <p>R$ 59,00</p>
+        <p>Peça única ✨</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://i.postimg.cc/RV6gHSZM/jaqueta.jpg/400x300" alt="Peça 3" />
+      <div class="info">
+        <h2>Jaqueta Jeans</h2>
+        <p>R$ 120,00</p>
+        <p>Peça única ✨</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>📩 Entre em contato pelo Instagram: <a href="https://instagram.com" target="_blank">@akedabrecho</a></p>
+  </footer>
+</body>
+</html>
